@@ -1,0 +1,28 @@
+.title {
+	font-weight: 400;
+	color: var(--pri-clr);
+	font-size: 4rem;
+	line-height: 4rem;
+	letter-spacing: -0.05rem;
+	max-width: 740px;
+}
+
+.hero_img {
+	width: 100%;
+}
+
+.hero_body {
+	margin-block: 2rem;
+	max-width: 500px;
+	margin-left: auto;
+}
+
+.body_title {
+	font-family: var(--ff-sans);
+	font-weight: 400;
+}
+
+.body_text {
+	font-weight: 500;
+	font-size: 1.1rem;
+}

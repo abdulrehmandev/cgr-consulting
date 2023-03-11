@@ -1,0 +1,22 @@
+.about {
+	background-color: var(--pri-clr);
+	color: var(--clr-white);
+	padding: 2rem 2rem;
+}
+
+.about * {
+	color: var(--clr-white);
+}
+
+.almost {
+	font-style: italic;
+	font-family: var(--ff-sans);
+	font-weight: 400;
+}
+
+.about_title {
+	font-family: var(--ff-sans);
+	font-weight: 400;
+	text-align: center;
+	font-size: 6rem;
+}
