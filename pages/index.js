@@ -3,6 +3,8 @@ import styles from "@/styles/Home.module.css";
 import Layout from "@/components/Layout";
 import Hero from "@/sections/Hero";
 import AboutUs from "@/sections/AboutUs";
+import Mission from "@/sections/Mission";
+import Join from "@/sections/Join";
 
 export default function Home() {
 	return (
@@ -19,13 +21,15 @@ export default function Home() {
 				/>
 				<link
 					rel='icon'
-					href='/favicon.ico'
+					href='/img/logo.svg'
 				/>
 			</Head>
 			<Layout>
 				<main className=''>
 					<Hero />
 					<AboutUs />
+					<Mission />
+					<Join />
 				</main>
 			</Layout>
 		</>

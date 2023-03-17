@@ -16,13 +16,13 @@ const Navigation = () => {
           >
             <ul className={navStyles.pri_nav}>
               <li>
-                <a href="#main" className={navStyles.nav_link}>About Us</a>
+                <a href="#aboutus" className={navStyles.nav_link}>About Us</a>
               </li>
               <li>
-                <a href="#main" className={navStyles.nav_link}>Our Mission</a>
+                <a href="#mission" className={navStyles.nav_link}>Our Mission</a>
               </li>
               <li>
-                <a href="#main" className={navStyles.nav_link}>Contact Us</a>
+                <a href="#contact" className={navStyles.nav_link}>Contact Us</a>
               </li>
             </ul>
             <PrimaryButton>Join the team</PrimaryButton>

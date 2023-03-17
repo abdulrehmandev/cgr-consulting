@@ -17,7 +17,12 @@
 	color: var(--pri-clr);
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
+	scroll-behavior: smooth;
 	margin: 0;
 	padding: 0;
 
@@ -31,4 +36,8 @@ body {
 
 	margin-inline: auto;
 	width: min(var(--max-width), 100% - var(--padding) * 2);
+}
+
+p {
+	font-weight: 500;
 }
