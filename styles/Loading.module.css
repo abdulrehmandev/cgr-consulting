@@ -7,7 +7,7 @@
 }
 
 .logo {
-	animation: logo 2.7s infinite;
+	animation: logo 2s infinite;
 }
 
 @keyframes logo {
